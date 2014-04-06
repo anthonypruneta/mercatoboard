@@ -1,0 +1,186 @@
+@import url("http://fonts.googleapis.com/css?family=Audiowide");
+root { 
+    display: block;
+}
+
+#title{font-family: 'Audiowide', cursive; font-size: 50px;color:white;width: 960px;margin:0 auto;}
+#social{width: 960px;margin: 0 auto;}
+#text {font-family: 'Audiowide', cursive; border-bottom: 4px solid #333;}
+#numbers{font-family: 'Audiowide', cursive; font-size: 40px; background: #333;width: 100%;display: inline-block;margin: 150px 0;}
+.number{width: 280px;padding: 19px;border-right: 2px solid black;float: left;text-align: center;color: #CCC;}
+#msgwlc{font-family: 'Audiowide', cursive; color:white; margin-top: 40px; font-size: 20px}
+#sign{font-family: 'Audiowide', cursive; color:#333 ;width: 960px;margin: 0 auto 40px auto;}
+#board a {background-color: #2E2E2E;}
+
+
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+	box-shadow:inset 0px 1px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+	background-color:#77d42a;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:2px solid #268a16;
+	display:inline-block;
+	color:#306108;
+	font-family:Times New Roman;
+	font-size:22px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:172px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #aade7c;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+	background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+	background-color:#5cb811;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+.fb-like{float: right;margin-top: -30;}
+.twitter-share-button{float: right;margin-top: -30;margin-right: 60;}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  background: black;
+  margin: 0;padding: 0;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.bar {
+  fill: #9ACD32;
+  fill-opacity: .9;
+}
+
+.dot {
+  stroke: #000;
+}
+
+#bubbletitle{
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    color: #9ACD32;
+    border: 3px solid #333
+}
+
+#bubblechart{
+    border: 3px solid #333;
+    margin-bottom: 20px;
+    background-color: #333
+}
+
+#circletitle{
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    color: #9ACD32;
+    border: 3px solid #333
+}
+
+#circlechart{
+    border: 3px solid #333;
+    margin-bottom: 20px;
+    background-color: #333
+}
+
+#stacktitle{
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    color: #9ACD32;
+    border: 3px solid #333
+}
+
+#stackgraph{
+    border: 3px solid #333;
+    margin-bottom: 20px;
+    background-color: #333
+}
+
+#bartitle{
+    font-family: 'Audiowide', cursive;
+    font-size: 20px;
+    color: #9ACD32;
+    border: 3px solid #333
+}
+
+#bargraph{
+    background-color: #333;
+    margin-bottom: 60px;
+    display: inline-block
+}
+
+#trais{
+    border-bottom: 4px solid #333;
+    margin-bottom: 40px;
+}
+#map{height: 600px;width: 100%; margin-bottom: 50px}
+#wrapformmap{background: #333; padding: 5px 0;}
+.formMap{display: inline;margin: 0 100px 0 0;}
+
+.tipsy { font-size: 10px; position: absolute; padding: 5px; z-index: 100000;}
+  .tipsy-inner {  border: 3px solid #000; position: absolute; background-color: #333; color: #fff; width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+  /* Rounded corners */
+  .tipsy-inner {  border: 3px solid #000; position: absolute; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  /* Uncomment for shadow */
+  /*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+  /* Rules to colour arrows */
+  .tipsy-arrow-n { position: absolute; border-bottom-color: #000; }
+  .tipsy-arrow-s { position: absolute; border-top-color: #000; }
+  .tipsy-arrow-e { position: absolute; border-left-color: #000; }
+  .tipsy-arrow-w { position: absolute; border-right-color: #000; }
+  .tipsy-n .tipsy-arrow { position: absolute; top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-nw .tipsy-arrow { position: absolute; top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-ne .tipsy-arrow { position: absolute; top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-s .tipsy-arrow { position: absolute; bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-sw .tipsy-arrow { position: absolute; bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-se .tipsy-arrow { position: absolute; bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow { position: absolute; right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow { position: absolute; left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
